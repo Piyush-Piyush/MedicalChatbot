@@ -108,7 +108,7 @@ def getInfo():
     readn("please enter your name")
     print("\nYour Name? \t\t\t\t", end="->")
     name = input("")
-    x = ("hello {}".format(name))
+    x = ("hi {}".format(name))
     readn(x)
     print(x)
 
